@@ -46,6 +46,12 @@
 - AI: Claude Haiku API 예정
 - Notification: Web Push API 예정
 
+## 문서
+
+- [소스 구조](./docs/CODE_MAP.md)
+- [개발/배포 가이드](./docs/DEVELOPMENT.md)
+- [Supabase 스키마](./docs/SUPABASE_SCHEMA.sql)
+
 ## 주요 화면 구성
 
 ### 대시보드
@@ -129,6 +135,8 @@ Supabase 연동을 위해 다음 환경 변수가 필요합니다.
 NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 ```
+
+실제 키 값은 `.env.local`에만 보관하고 GitHub에는 올리지 않습니다.
 
 ## 개발 로드맵
 
